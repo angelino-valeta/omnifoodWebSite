@@ -1,0 +1,227 @@
+/*! normalize.css V3.0.2 | MIT License | git.io/normalize */
+/**
+* 1. Set default font family to sans-serif.
+* 2. Prevent iOs text size adjust after orientation change, without disabling
+* 3. user zoom.
+*/
+
+html {
+   font-family: sans-serif; /* 1 */
+   -ms-text-size-adjust: 100%; /* 2 */
+   -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+* Remove default margin.
+*/
+
+body{
+    margin: 0;
+}
+
+/* HTML5 display definitions
+  ================================================================*/
+
+/**
+ * Correct 'block' display not defined for any HTML5 element in IE 8/9.
+ * Correct 'block' display not defined for 'details' or 'summary' in IE 10/11
+ * and Forefox.
+ * Correct 'block' display not defined for 'main' in IE 11.
+*/
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+sumary{
+    display: block;
+}
+
+/**
+ * 1. Correct ´inline-block' display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of 'progress' in Chrome, Firefox, and Opera
+*/
+
+audio,
+canvas,
+progress,
+video{
+   display: inline-block; /* 1 */
+   vertical-align: baseline: /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying 'audio' without controls.
+ * Remove excess height in iOs 5 devices.
+*/
+
+audio:not([controls]){
+    display: none;
+    height: 0;
+}
+
+/**
+ * Adress '[hidden]' styling not present in IE 8/9/10.
+ * Hide the 'template' element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template{
+   display: none;
+} 
+
+/* Links
+   =======================================================================*/
+
+/**
+ * Remote the gray background color from active links in IE 10
+*/
+
+a{
+    background-color: transparent;
+}
+
+/**
+ * Improve readabity when focused and also mouse hovered in all browsers.
+*/
+
+a:active,
+a:hover{
+    outline: 0;
+}
+
+/* Text-level semantics
+   ======================================================================*/
+/**
+ * Address styling not present in IE 8/9/10/11, safari, and chrome.
+*/
+
+abbr[title]{
+    border-botoom: 1px dotted;
+}
+
+/**
+ * Adress style sey to 'bolder' in Firefox 4+, Safari, and Chrome.
+*/
+
+b,
+strong{
+    font-weight: bold;
+}
+
+/**
+ * Adress styling not present in Safar and Chorme.
+*/
+
+dfn{
+    font-stylr: italic;
+}
+
+/**
+ * Adress variable 'h1' font-size and margin within 'section' and 'article' 
+ * contexts in Firefox 4+, and, Safari, and Chrome.
+*/
+h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/** 
+ *Adress styling not in IE 8/9.
+*/
+
+mark {
+    background: #ff9;
+    color: #000;
+}
+
+/**
+ * Adress inconsistent and variable font size in all browsers.
+*/
+
+small{
+    font-size: 80%;
+}
+
+/**
+ * Prevent 'sub' and 'sup' affecting 'line-height' in all browsers.
+*/
+
+sub,
+sup{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup{
+    top: -0.5em;
+}
+sub{
+    bottom: -0.25em;
+}
+
+/* Embedded contact
+   =======================================================================*/
+
+/**
+  * Remove border when inside 'a' element in IE 8/9/10.
+*/
+
+img{
+    border: 0;
+}
+
+/**
+  * Correct overflow not hidden in IE 9/10/11.
+*/
+
+svg:not(:root){
+    overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================*/
+/**
+ * Adress margin not present in IE 8/9 and Safari.
+
+figure{
+    margin: 1em 40px;
+}
+
+/**
+* Adress diferences between Firefox and other browsers.
+*/
+
+hr{
+    moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+
+/**
+* Contain overflow in all browser.
+*/
+
+pre{
+    overflow: auto;
+}
+
+/**
+ * Adress addd 'em'-unit fotnt size rendering in all browsers.
+*/
+
+code,
+kdb,
+samp{
+    font-family: monospace, maonosapace;
+    font-size: 1em;
+}

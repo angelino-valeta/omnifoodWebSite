@@ -291,3 +291,10 @@ header{
 
 .sticky .logo {display: none;}
 .sticky .logo-black{display: block;}
+
+
+/*---------------------------------------------------------*/
+/* ------------FEATURES-----------*/
+.section-features .long-copy{
+  margin-bottom: 30px;
+}

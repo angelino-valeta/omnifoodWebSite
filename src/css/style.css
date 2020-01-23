@@ -90,7 +90,7 @@ h2:after{
 
 /*---------------------------------------------------------*/
 /* ------------PARAGRAPHS-----------*/
-,long-copy{
+.long-copy{
   line-height: 145%;
   width: 70%;
   margin-left: 15%;
@@ -98,4 +98,28 @@ h2:after{
 .box p{
   font-size: 90%;
   line-height: 145%;
+}
+
+/*---------------------------------------------------------*/
+/* ------------ICONS-----------*/
+.icon-big{
+  font-size: 350%;
+  display: block;
+  color: #e67e22;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.icon-small{
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  margin-right: 10px;
+
+  /*secrets to align text and icon*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+
 }

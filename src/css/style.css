@@ -123,3 +123,20 @@ h2:after{
   margin-top: -5px;
 
 }
+
+/*---------------------------------------------------------*/
+/* ------------LINKS-----------*/
+a:link,
+a:visited{
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active{
+  color: #555;
+  border-bottom: 1px solid transparent;
+}

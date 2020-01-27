@@ -166,7 +166,7 @@ input[type=submit]{
 }
 
 .btn-ghost:link,
-.btn-ghost:visited,{
+.btn-ghost:visited{
   border: 1px solid #e67e22;
   color: #e67e22;
 }
@@ -178,7 +178,9 @@ input[type=submit]:active{
 }
 
 .btn-full:hover,
-.btn-full:active{
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active{
  background-color: #cf6d17;
 }
 

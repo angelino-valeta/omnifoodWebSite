@@ -1,1 +1,9 @@
-
+/*
+BIg tablet to 1200px (widths smaller thant the 1140px row)*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {padding: 0 2%;}
+}

@@ -316,14 +316,14 @@ header{
   width: 25%;
 }
 
-.meals-photo{
+.meal-photo{
   width: 100%;
   margin: 0;
   overflow: hidden;
   background-color: #000;
 }
 
-.meals-photo img{
+.meal-photo img{
   opacity: 0.7;
   width: 100%;
   height: auto;
